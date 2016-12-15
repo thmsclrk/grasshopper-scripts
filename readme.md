@@ -1,2 +1,4 @@
 # Vertical Blinds.gh
-This script generates vertical blinds on points that are exposed to direct solar radiation for a certain percentage of operating hours for a given day.
+This script generates vertical blinds on points that are exposed to direct solar radiation for a certain percentage of operating hours for a given day. This is completed using ladybug compenents to trace sun positions and determine respective solar vectors for collision detection.
+# Generic Shading.gh
+This script generates a horizontal projection at the head of a glazing unit, given a set of input glazing and shading devices. This is completed using Ladybug components to analyse radiation onto target glazing, with galapagos genetic solver optimisation of the horizontal projection to realise an equivalent total annual solar radiation onto the glazing. The purpose of this script is to allow contributions of complex shading devices to be accounted for in Section J Calculations.
